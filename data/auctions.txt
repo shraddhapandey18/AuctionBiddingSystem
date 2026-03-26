@@ -1,0 +1,103 @@
+===== AUCTION HISTORY LOG =====
+This file stores details of all completed auctions including bids and winners.
+Created: Auction Records Log
+
+===== AUCTION #100 =====
+Type: Live Timed Auction
+Item: Vintage Camera
+Starting Price: $150.0
+Total Bids: 3
+--- BID HISTORY ---
+  Bidder: Alice | Amount: $160.00 | Time: 23:21:28
+  Bidder: Bob | Amount: $175.00 | Time: 23:21:30
+  Bidder: Alice | Amount: $200.00 | Time: 23:21:32
+FINAL WINNER: Alice - $200.0
+
+===== AUCTION #101 =====
+Type: Reserve Price Auction
+Item: Antique Watch
+Starting Price: $300.0
+Total Bids: 1
+--- BID HISTORY ---
+  Bidder: Carol | Amount: $420.00 | Time: 23:21:38
+FINAL WINNER: Carol - $420.0
+
+===== AUCTION #100 =====
+Type: Live Timed Auction
+Item: Vintage Camera
+Starting Price: $150.0
+Total Bids: 3
+--- BID HISTORY ---
+  Bidder: Alice | Amount: $160.00 | Time: 23:23:57
+  Bidder: Bob | Amount: $175.00 | Time: 23:23:59
+  Bidder: Alice | Amount: $200.00 | Time: 23:24:01
+FINAL WINNER: Alice - $200.0
+
+===== AUCTION #101 =====
+Type: Reserve Price Auction
+Item: Antique Watch
+Starting Price: $300.0
+Total Bids: 1
+--- BID HISTORY ---
+  Bidder: Carol | Amount: $420.00 | Time: 23:24:07
+FINAL WINNER: Carol - $420.0
+
+===== AUCTION #100 =====
+Type: Live Timed Auction
+Item: Vintage Camera
+Starting Price: $150.0
+Total Bids: 3
+--- BID HISTORY ---
+  Bidder: Alice | Amount: $160.00 | Time: 23:24:47
+  Bidder: Bob | Amount: $175.00 | Time: 23:24:49
+  Bidder: Alice | Amount: $200.00 | Time: 23:24:51
+FINAL WINNER: Alice - $200.0
+
+===== AUCTION #101 =====
+Type: Reserve Price Auction
+Item: Antique Watch
+Starting Price: $300.0
+Total Bids: 1
+--- BID HISTORY ---
+  Bidder: Carol | Amount: $420.00 | Time: 23:24:57
+FINAL WINNER: Carol - $420.0
+
+===== AUCTION #100 =====
+Type: Live Timed Auction
+Item: Vintage Camera
+Starting Price: $150.0
+Total Bids: 3
+--- BID HISTORY ---
+  Bidder: Alice | Amount: $160.00 | Time: 23:26:05
+  Bidder: Bob | Amount: $175.00 | Time: 23:26:07
+  Bidder: Alice | Amount: $200.00 | Time: 23:26:09
+FINAL WINNER: Alice - $200.0
+
+===== AUCTION #101 =====
+Type: Reserve Price Auction
+Item: Antique Watch
+Starting Price: $300.0
+Total Bids: 1
+--- BID HISTORY ---
+  Bidder: Carol | Amount: $420.00 | Time: 23:26:15
+FINAL WINNER: Carol - $420.0
+
+===== AUCTION #100 =====
+Type: Live Timed Auction
+Item: Vintage Camera
+Starting Price: $150.0
+Total Bids: 3
+--- BID HISTORY ---
+  Bidder: Alice | Amount: $160.00 | Time: 23:26:30
+  Bidder: Bob | Amount: $175.00 | Time: 23:26:32
+  Bidder: Alice | Amount: $200.00 | Time: 23:26:34
+FINAL WINNER: Alice - $200.0
+
+===== AUCTION #101 =====
+Type: Reserve Price Auction
+Item: Antique Watch
+Starting Price: $300.0
+Total Bids: 1
+--- BID HISTORY ---
+  Bidder: Carol | Amount: $420.00 | Time: 23:26:40
+FINAL WINNER: Carol - $420.0
