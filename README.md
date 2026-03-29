@@ -28,7 +28,7 @@ A Java-based auction platform built as a strong second-year college project with
 
 From project root (Windows PowerShell):
 1. `cd c:\AuctionBiddingSystem`
-2. `go to src and run terminal and run main "java Main.main"`
+2. `go to src and run terminal and run main "java Main.java"`
 
 ## 🛠️ Menu options and expected behavior
 
