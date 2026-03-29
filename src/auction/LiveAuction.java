@@ -20,14 +20,13 @@ public class LiveAuction extends Auction implements Runnable {
      * @param durationMinutes Auction duration in minutes
      */
     public LiveAuction(String auctionId, model.Item item, int durationMinutes) {
-        super(auctionId, item, durationMinutes);
+        super(auctionId, item, item.getStartingPrice());
         this.scheduler = Executors.newScheduledThreadPool(1);
 
         // Schedule automatic closing
         scheduler.schedule(this::closeAuction, durationMinutes, TimeUnit.MINUTES);
     }
 
-    @Override
     protected void validateBidAmount(Bid bid) throws InvalidBidException {
         double currentHighest = getCurrentHighestBid();
         if (bid.getAmount() <= currentHighest) {
@@ -37,7 +36,6 @@ public class LiveAuction extends Auction implements Runnable {
         }
     }
 
-    @Override
     protected void checkAuctionEndCondition(Bid latestBid) {
         // Live auctions don't end early - they run for full duration
         // Could be extended to implement "extended bidding" if bid comes in last minutes

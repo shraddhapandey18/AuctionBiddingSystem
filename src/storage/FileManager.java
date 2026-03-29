@@ -31,7 +31,7 @@ public class FileManager {
             writer.println("=== AUCTION ===");
             writer.println("ID: " + auction.getAuctionId());
             writer.println("Start: " + auction.getStartTime().format(FORMATTER));
-            writer.println("End: " + auction.getEndTime().format(FORMATTER));
+            writer.println("End: " + (auction.getEndTime() != null ? auction.getEndTime().format(FORMATTER) : "Not ended"));
             writer.println("Active: " + auction.isActive());
             writer.println("Item: " + auction.getItem().toString());
             writer.println("Current Highest Bid: " + auction.getCurrentHighestBid());

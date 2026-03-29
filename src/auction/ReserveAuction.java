@@ -20,7 +20,7 @@ public class ReserveAuction extends Auction {
      * @param reservePrice Minimum price that must be met
      */
     public ReserveAuction(String auctionId, model.Item item, int durationMinutes, double reservePrice) {
-        super(auctionId, item, durationMinutes);
+        super(auctionId, item, item.getStartingPrice());
         if (reservePrice <= item.getStartingPrice()) {
             throw new IllegalArgumentException("Reserve price must be higher than starting price");
         }
@@ -32,7 +32,6 @@ public class ReserveAuction extends Auction {
     public double getReservePrice() { return reservePrice; }
     public boolean isReserveMet() { return reserveMet; }
 
-    @Override
     protected void validateBidAmount(Bid bid) throws InvalidBidException {
         double currentHighest = getCurrentHighestBid();
         if (bid.getAmount() <= currentHighest) {
@@ -42,7 +41,6 @@ public class ReserveAuction extends Auction {
         }
     }
 
-    @Override
     protected void checkAuctionEndCondition(Bid latestBid) {
         if (latestBid.getAmount() >= reservePrice && !reserveMet) {
             reserveMet = true;
